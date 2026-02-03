@@ -4,9 +4,12 @@
   "description": "Learn about Backend advance",
   "license": "ISC",
   "author": "Tanishk Panchal",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
