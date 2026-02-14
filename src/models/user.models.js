@@ -42,7 +42,8 @@ const userSchema = new mongoose.Schema(
             required:true,
         },
         coverimg:{
-            type:String
+            type:String,
+            required:true
         },
         watchHistory:[
             {
@@ -55,7 +56,8 @@ const userSchema = new mongoose.Schema(
             required:[true, 'Password is required']
         },
         refreshToken:{
-            type:String
+            type:String,
+            required:true,
         }
     },
     {timestamps:true}
