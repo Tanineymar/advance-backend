@@ -33,6 +33,10 @@ const videoSchema = new mongoose.Schema(
             required:true,
             default:0
         },
+        like:{
+            type:String,
+            required:true
+        },
         idPublished:{
             type:Boolean,
             default:true,
